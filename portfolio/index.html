@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>portfolio</title>
+  </head>
+  <body>
+    <div class="background">
+      <!--header starts-->
+      <div class="scrollarrow"><i class="fa-solid fa-arrow-up"></i></div>
+      <div class="header">
+        <!--NAME STARTS HERE-->
+        <div class="name">
+          <div class="caps">S</div>
+          <div class="nm">arwar</div>
+          &nbsp;
+          <div class="caps">K</div>
+          <div class="nm">awoosa</div>
+        </div>
+        <!--NAME ENDS HERE-->
+        <!--DAY-NIGHT ICONS STARTS-->
+        <div class="day-night">
+          <div class="moon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              class="bi bi-brightness-high-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"
+              />
+            </svg>
+          </div>
+          <div class="hide"></div>
+          <div class="sun">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              class="bi bi-moon-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"
+              />
+            </svg>
+          </div>
+        </div>
+        <!--DAY-NIGHT ICONS ENDS-->
+        <!--NAV-LINKS FOR DESKTOP SCREEN STARTS -->
+        <div class="navbar">
+          <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+        <!--NAV-LINKS FOR DESKTOP SCREEN ENDS -->
+        <!--NAV-LINKS FOR MOBILE SCREEN STARTS -->
+        <div class="hamburger">
+          <div class="lines" onclick="toggle()">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="nav-links">
+            <ul>
+              <li><a href="#home">HOME</a></li>
+              <li><a href="#about">ABOUT</a></li>
+              <li><a href="#skills">SKILLS</a></li>
+              <li><a href="#projects">PROJECTS</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+          </div>
+        </div>
+        <!--NAV-LINKS FOR DESKTOP SCREEN ENDS -->
+      </div>
+      <!--header ends here-->
+      <!--sections begin-->
+      <section id="home" class="flex">
+        <article class="pic-wraper">
+          <div class="mypic">
+            <img
+              src="./WhatsApp Image 2024-01-22 at 15.09.57_cdcc9336.jpg"
+              alt="my pic"
+            />
+            <h1>
+              WEB <br />
+              DEVELOPER <br />
+            </h1>
+            <button>Hire Me</button>
+          </div>
+          <div class="box1"></div>
+          <div class="box2"></div>
+        </article>
+        <article class="text-wraper">
+          <div class="text-content">
+            <h1 class="top-text">Hi, Everyone</h1>
+            <h3 class="name-text"><i>sarwar here</i></h3>
+            <h2 class="moving-text"><span id="run-text"></span></h2>
+          </div>
+          <br />
+          <br />
+          <div class="buttons">
+            <a href="./portfolio/outstanding_10.png" target="_blank"
+              ><button>
+                <span>Download CV</span>
+              </button></a
+            >
+            <a class="btn" href="#contact">
+              <button><span>Contact</span></button>
+            </a>
+            <button onclick="location.href('#about')">
+              <span>About Me</span>
+            </button>
+          </div>
+        </article>
+      </section>
+      <section id="about" class="flex">
+        <div class="left">
+          <span>let me introduce</span>
+          <h2 class="style-h2">ABOUT ME</h2>
+          <p class="style-h3">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate
+            aperiam inventore ea consectetur repudiandae. Placeat iusto
+            recusandae ducimus nobis pariatur temporibus itaque doloremque,
+            aperiam nisi sunt aut magni cumque hic.
+          </p>
+          <button>Home</button>
+        </div>
+        <div class="right">
+          <img
+            src="./WhatsApp_Image_2024-01-22_at_15.09.57_cdcc9336-removebg-preview.png"
+            alt="mypic"
+          />
+
+          <div class="liquid-box">
+            <svg
+              viewBox="0 0 500 500"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="70%"
+              id="blobSvg"
+            >
+              <defs>
+                <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop
+                    offset="0%"
+                    style="stop-color: rgb(76, 161, 175)"
+                  ></stop>
+                  <stop
+                    offset="100%"
+                    style="stop-color: rgb(196, 224, 229)"
+                  ></stop>
+                </linearGradient>
+              </defs>
+              <path fill="url(#gradient)">
+                <animate
+                  attributeName="d"
+                  dur="10s"
+                  repeatCount="indefinite"
+                  values="
+              M388,272.5Q389,295,380.5,316.5Q372,338,372,377.5Q372,417,348,447.5Q324,478,287,486.5Q250,495,213,485.5Q176,476,144,458Q112,440,121.5,388.5Q131,337,89.5,326.5Q48,316,38,283Q28,250,37.5,217Q47,184,79.5,166.5Q112,149,110,102Q108,55,151,67Q194,79,222,59Q250,39,281.5,47Q313,55,348,61Q383,67,397.5,100Q412,133,433.5,158Q455,183,421,216.5Q387,250,388,272.5Z;
+              M418.5,275Q405,300,410,335Q415,370,379.5,375Q344,380,327,407.5Q310,435,280,420.5Q250,406,225,405.5Q200,405,177,394Q154,383,108,384.5Q62,386,60,349Q58,312,48,281Q38,250,36,215Q34,180,89.5,177Q145,174,142,135.5Q139,97,173.5,109Q208,121,229,113Q250,105,278.5,89.5Q307,74,323.5,100Q340,126,369.5,134Q399,142,429,162Q459,182,445.5,216Q432,250,418.5,275Z;
+              M390.5,274Q399,298,385.5,318.5Q372,339,376.5,384.5Q381,430,351.5,451Q322,472,286,460.5Q250,449,211.5,467.5Q173,486,144.5,460Q116,434,99,403Q82,372,49.5,349Q17,326,30,288Q43,250,59,221.5Q75,193,78.5,160.5Q82,128,109.5,111.5Q137,95,165.5,87Q194,79,222,45.5Q250,12,284,26Q318,40,327.5,85Q337,130,376,130Q415,130,404.5,166.5Q394,203,388,226.5Q382,250,390.5,274Z;
+              M341.5,266.5Q351,283,388.5,330.5Q426,378,380,372Q334,366,307.5,355.5Q281,345,265.5,347Q250,349,213,414Q176,479,189.5,397Q203,315,176.5,319Q150,323,99.5,319Q49,315,28.5,282.5Q8,250,78,233.5Q148,217,147,196Q146,175,150,146.5Q154,118,172.5,92.5Q191,67,220.5,73Q250,79,286,53.5Q322,28,312.5,103Q303,178,333.5,172.5Q364,167,424.5,170.5Q485,174,408.5,212Q332,250,341.5,266.5Z;
+              M476,283Q454,316,409.5,325Q365,334,331,324.5Q297,315,295,349Q293,383,271.5,408.5Q250,434,236.5,383Q223,332,174,377Q125,422,89,407.5Q53,393,100,338Q147,283,120.5,266.5Q94,250,75,218.5Q56,187,102,181.5Q148,176,162.5,163Q177,150,178,91.5Q179,33,214.5,67.5Q250,102,279,87.5Q308,73,338.5,79.5Q369,86,366,127Q363,168,380,185Q397,202,447.5,226Q498,250,476,283Z;
+              M473.5,283Q453,316,415.5,329.5Q378,343,369,372Q360,401,336,420.5Q312,440,281,468.5Q250,497,227.5,442.5Q205,388,164.5,406Q124,424,124,383Q124,342,121,317.5Q118,293,88.5,271.5Q59,250,79.5,225.5Q100,201,104.5,174.5Q109,148,115.5,111Q122,74,156.5,71.5Q191,69,220.5,49.5Q250,30,262.5,101Q275,172,298,162Q321,152,324.5,173Q328,194,383.5,191.5Q439,189,466.5,219.5Q494,250,473.5,283Z;
+              M424.5,275Q404,300,383.5,316Q363,332,350.5,351.5Q338,371,313,369Q288,367,269,368.5Q250,370,222,396.5Q194,423,185.5,387Q177,351,141,353Q105,355,110.5,324Q116,293,124,271.5Q132,250,147,235.5Q162,221,171.5,210.5Q181,200,172,165.5Q163,131,175.5,95.5Q188,60,219,45Q250,30,287,25.5Q324,21,359.5,35.5Q395,50,407,88.5Q419,127,408.5,164.5Q398,202,421.5,226Q445,250,424.5,275Z;
+              M391.5,273Q391,296,385.5,320Q380,344,384,392Q388,440,332,384.5Q276,329,263,410.5Q250,492,223,454Q196,416,166,411Q136,406,154,356.5Q172,307,107.5,312Q43,317,82.5,283.5Q122,250,76.5,214.5Q31,179,81.5,171.5Q132,164,165,171Q198,178,189,106Q180,34,215,69Q250,104,277.5,93Q305,82,327.5,97Q350,112,367,132.5Q384,153,415.5,169.5Q447,186,419.5,218Q392,250,391.5,273Z;
+              M388,272.5Q389,295,380.5,316.5Q372,338,372,377.5Q372,417,348,447.5Q324,478,287,486.5Q250,495,213,485.5Q176,476,144,458Q112,440,121.5,388.5Q131,337,89.5,326.5Q48,316,38,283Q28,250,37.5,217Q47,184,79.5,166.5Q112,149,110,102Q108,55,151,67Q194,79,222,59Q250,39,281.5,47Q313,55,348,61Q383,67,397.5,100Q412,133,433.5,158Q455,183,421,216.5Q387,250,388,272.5Z;"
+                ></animate>
+              </path>
+            </svg>
+          </div>
+          <div class="liquid-box2">
+            <svg
+              viewBox="0 0 500 500"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="70%"
+              id="blobSvg"
+            >
+              <defs>
+                <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop
+                    offset="0%"
+                    style="stop-color: rgb(76, 161, 175)"
+                  ></stop>
+                  <stop
+                    offset="100%"
+                    style="stop-color: rgb(196, 224, 229)"
+                  ></stop>
+                </linearGradient>
+              </defs>
+              <path fill="url(#gradient)">
+                <animate
+                  attributeName="d"
+                  dur="10s"
+                  repeatCount="indefinite"
+                  values="
+              M388,272.5Q389,295,380.5,316.5Q372,338,372,377.5Q372,417,348,447.5Q324,478,287,486.5Q250,495,213,485.5Q176,476,144,458Q112,440,121.5,388.5Q131,337,89.5,326.5Q48,316,38,283Q28,250,37.5,217Q47,184,79.5,166.5Q112,149,110,102Q108,55,151,67Q194,79,222,59Q250,39,281.5,47Q313,55,348,61Q383,67,397.5,100Q412,133,433.5,158Q455,183,421,216.5Q387,250,388,272.5Z;
+              M418.5,275Q405,300,410,335Q415,370,379.5,375Q344,380,327,407.5Q310,435,280,420.5Q250,406,225,405.5Q200,405,177,394Q154,383,108,384.5Q62,386,60,349Q58,312,48,281Q38,250,36,215Q34,180,89.5,177Q145,174,142,135.5Q139,97,173.5,109Q208,121,229,113Q250,105,278.5,89.5Q307,74,323.5,100Q340,126,369.5,134Q399,142,429,162Q459,182,445.5,216Q432,250,418.5,275Z;
+              M390.5,274Q399,298,385.5,318.5Q372,339,376.5,384.5Q381,430,351.5,451Q322,472,286,460.5Q250,449,211.5,467.5Q173,486,144.5,460Q116,434,99,403Q82,372,49.5,349Q17,326,30,288Q43,250,59,221.5Q75,193,78.5,160.5Q82,128,109.5,111.5Q137,95,165.5,87Q194,79,222,45.5Q250,12,284,26Q318,40,327.5,85Q337,130,376,130Q415,130,404.5,166.5Q394,203,388,226.5Q382,250,390.5,274Z;
+              M341.5,266.5Q351,283,388.5,330.5Q426,378,380,372Q334,366,307.5,355.5Q281,345,265.5,347Q250,349,213,414Q176,479,189.5,397Q203,315,176.5,319Q150,323,99.5,319Q49,315,28.5,282.5Q8,250,78,233.5Q148,217,147,196Q146,175,150,146.5Q154,118,172.5,92.5Q191,67,220.5,73Q250,79,286,53.5Q322,28,312.5,103Q303,178,333.5,172.5Q364,167,424.5,170.5Q485,174,408.5,212Q332,250,341.5,266.5Z;
+              M476,283Q454,316,409.5,325Q365,334,331,324.5Q297,315,295,349Q293,383,271.5,408.5Q250,434,236.5,383Q223,332,174,377Q125,422,89,407.5Q53,393,100,338Q147,283,120.5,266.5Q94,250,75,218.5Q56,187,102,181.5Q148,176,162.5,163Q177,150,178,91.5Q179,33,214.5,67.5Q250,102,279,87.5Q308,73,338.5,79.5Q369,86,366,127Q363,168,380,185Q397,202,447.5,226Q498,250,476,283Z;
+              M473.5,283Q453,316,415.5,329.5Q378,343,369,372Q360,401,336,420.5Q312,440,281,468.5Q250,497,227.5,442.5Q205,388,164.5,406Q124,424,124,383Q124,342,121,317.5Q118,293,88.5,271.5Q59,250,79.5,225.5Q100,201,104.5,174.5Q109,148,115.5,111Q122,74,156.5,71.5Q191,69,220.5,49.5Q250,30,262.5,101Q275,172,298,162Q321,152,324.5,173Q328,194,383.5,191.5Q439,189,466.5,219.5Q494,250,473.5,283Z;
+              M424.5,275Q404,300,383.5,316Q363,332,350.5,351.5Q338,371,313,369Q288,367,269,368.5Q250,370,222,396.5Q194,423,185.5,387Q177,351,141,353Q105,355,110.5,324Q116,293,124,271.5Q132,250,147,235.5Q162,221,171.5,210.5Q181,200,172,165.5Q163,131,175.5,95.5Q188,60,219,45Q250,30,287,25.5Q324,21,359.5,35.5Q395,50,407,88.5Q419,127,408.5,164.5Q398,202,421.5,226Q445,250,424.5,275Z;
+              M391.5,273Q391,296,385.5,320Q380,344,384,392Q388,440,332,384.5Q276,329,263,410.5Q250,492,223,454Q196,416,166,411Q136,406,154,356.5Q172,307,107.5,312Q43,317,82.5,283.5Q122,250,76.5,214.5Q31,179,81.5,171.5Q132,164,165,171Q198,178,189,106Q180,34,215,69Q250,104,277.5,93Q305,82,327.5,97Q350,112,367,132.5Q384,153,415.5,169.5Q447,186,419.5,218Q392,250,391.5,273Z;
+              M388,272.5Q389,295,380.5,316.5Q372,338,372,377.5Q372,417,348,447.5Q324,478,287,486.5Q250,495,213,485.5Q176,476,144,458Q112,440,121.5,388.5Q131,337,89.5,326.5Q48,316,38,283Q28,250,37.5,217Q47,184,79.5,166.5Q112,149,110,102Q108,55,151,67Q194,79,222,59Q250,39,281.5,47Q313,55,348,61Q383,67,397.5,100Q412,133,433.5,158Q455,183,421,216.5Q387,250,388,272.5Z;"
+                ></animate>
+              </path>
+            </svg>
+          </div>
+          <div class="wiggle">
+            <div class="one"><h1>10 years exp</h1></div>
+            <div class="two"><h1>10 years exp</h1></div>
+            <div class="three"><h1>10 years exp</h1></div>
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="flex">
+        <div class="rightside-skill"></div>
+        <div class="leftside-skill"></div>
+      </section>
+      <section id="projects" class="flex">
+        <h1 class="big">PROJECTS</h1>
+      </section>
+      <section id="contact" class="flex">
+          <div class="contact-box flex">
+            <div class="contact-icon-container flex">
+             
+                <ul class="contact-icons">
+                  <li class="flex">
+                    <a href="mailto:doritos.in?subject=feedback" class="qwert"
+                      ><i class="fa-solid fa-envelope"></i
+                    ></a>
+                  </li>
+                  <li class="flex">
+                    <a href="mailto:doritos.in?subject=feedback" class="qwert"
+                      ><i class="fa-brands fa-facebook-messenger"></i
+                    ></a>
+                  </li>
+                  <li class="flex">
+                    <a href="https://wa.me/+91959644615" class="qwert"
+                      ><i class="fa-brands fa-whatsapp"></i
+                    ></a>
+                  </li>
+                  <li class="flex">
+                    <a href="tel:+91959644615" class="qwert"
+                      ><i class="fa-solid fa-phone"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="contact-form-container flex">
+              <div class="contact-main-text">
+                <h2>CONTACT ME</h2>
+                <span>get in touch</span>
+              </div>
+                <form action="" class="fill-form">
+                  <div class="input-names">
+                  <input
+                    type="text"
+                    name="first-name"
+                    placeholder="First Name"
+                    required
+                  />
+                  <input
+                    type="text"
+                    name="last-name"
+                    placeholder="Last Name"
+                    required
+                  />
+                </div>
+                <input type="email" name="email" placeholder="Email" class="email-fill">
+               <div class="so-fill">
+                 <input type="text" name="textbox" placeholder="Write-Something" ></div>
+                <div class="form-buttons">
+                <button type="submit" class="last-buttons">SUBMIT</button>
+                <button type="reset" class="last-buttons">RESET</button>
+              </div>
+                </form>
+              
+              </div>
+            </div>
+          </div>
+        
+      </section>
+      <!--sections end-->
+      <!-- footer start here-->
+      <footer>
+        <div class="footer-area">
+          <ul class="contact-icons">
+            <li>
+              <a href="mailto:doritos.in?subject=feedback" class="qwert"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+            </li>
+            <li >
+              <a href="mailto:doritos.in?subject=feedback" class="qwert"
+                ><i class="fa-brands fa-facebook-messenger"></i
+              ></a>
+            </li>
+            <li >
+              <a href="https://wa.me/+91959644615" class="qwert"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+            </li>
+            <li >
+              <a href="https://www.linkedin.com/in/sarwar-bashir-kawoosa-384498217/" class="qwert"
+                ><i class="fa-brands fa-linkedin-in"></i></a>
+            </li>
+            <li >
+              <a href="tel:+91959644615" class="qwert"
+                ><i class="fa-solid fa-phone"></i
+              ></a>
+            </li>
+            <li >
+              <a href="https://github.com/sarwar9596" class="qwert"
+                ><i class="fa-brands fa-github"></i></a>
+            </li>
+          </ul>
+          <div class="copyright"><h5>All rights reserved-- copyright@c</h5></div>
+        </div>
+        </footer>  
+       <!-- footer end here-->
+    </div>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
